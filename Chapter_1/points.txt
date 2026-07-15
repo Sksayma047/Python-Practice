@@ -1,0 +1,21 @@
+| Data Type  | Ordered             | Mutable | Duplicate Values | Duplicate Keys |
+| ---------- | ------------------- | ------- | ---------------- | -------------- |
+| List       | ✅ Yes               | ✅ Yes   | ✅ Yes            | N/A            |
+| Tuple      | ✅ Yes               | ❌ No    | ✅ Yes            | N/A            |
+| Set        | ❌ No                | ✅ Yes   | ❌ No             | N/A            |
+| Dictionary | ✅ Yes (Python 3.7+) | ✅ Yes   | ✅ Values Yes     | ❌ Keys No      |
+
+
+Common Uses
+List: Store a collection of items that can change.
+Tuple: Store fixed data that should not change.
+Set: Remove duplicates and perform fast membership tests.
+Dictionary: Store related data as key-value pairs for fast lookups.
+
+
+1. What is *args?
+
+*args allows a function to accept any number of positional arguments.
+2. What is **kwargs?
+
+**kwargs allows a function to accept any number of keyword arguments.
