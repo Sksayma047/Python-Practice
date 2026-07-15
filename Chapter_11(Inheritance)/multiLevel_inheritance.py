@@ -8,3 +8,10 @@ class Manager(Programmer):
 
 o = Employee()
 print(o.a)
+# print(o.b)  # This will raise an AttributeError since 'Employee' object has no attribute 'b' 
+
+o = Programmer()
+print(o.a, o.b)
+
+o = Manager()
+print(o.a, o.b, o.c)

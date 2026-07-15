@@ -1,3 +1,3 @@
-a.show()
-# b.printLanguage()
-# c.showAll()
+
+# o = Manager()
+# print(o.a, o.b, o.c)
